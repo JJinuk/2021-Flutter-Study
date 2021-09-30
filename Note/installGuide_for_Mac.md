@@ -84,6 +84,5 @@ flutter 설정을 완료하는 데 필요한 플랫폼이 있는지 확인하기
     
     <img width="894" alt="15" src="https://user-images.githubusercontent.com/74299463/135407503-e0b87826-a147-413e-b07e-4f9bf79ab0bb.png">
     
-### 출
     
 :label: https://flutter.dev/docs/get-started/install
