@@ -2,6 +2,9 @@
 **Flutter 스터디**를 진행하면서 각자 공부한 내용을 정리, 과제를 기록하기 위해 만든 저장소 입니다.   
 스터디 일정과 진도는 [Flutter 순한맛](https://www.youtube.com/playlist?list=PLQt_pzi-LLfpcRFhWMywTePfZ2aPapvyl)을 토대로 진행하며, [The Complete 2021 Flutter Development Bootcamp with Dart](https://www.udemy.com/course/flutter-bootcamp-with-dart/) 참고하셔도 좋습니다.
 
+[Mac 설치 방법](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/installGuide_for_Mac.md)
+
+
 ## 스터디 멤버
 |매니저|[최진욱](https://github.com/JJinuk)|[배현아](https://github.com/hyuna6927)|   
 |:---:|:---:|:---:|
@@ -31,7 +34,6 @@
   - [Flutter 공식문서](https://flutter.dev/docs)
   - [DartPad](https://dartpad.dev/)
   - [자바 개발자를 위한 Dart Codelab](https://codelabs.developers.google.com/codelabs/from-java-to-dart/#0)
-  - [설치 방법]()
 
 ## 스터디 방식
 
