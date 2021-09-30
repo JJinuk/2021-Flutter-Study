@@ -31,7 +31,7 @@
   - [Flutter 공식문서](https://flutter.dev/docs)
   - [DartPad](https://dartpad.dev/)
   - [자바 개발자를 위한 Dart Codelab](https://codelabs.developers.google.com/codelabs/from-java-to-dart/#0)
-
+  - [설치 방법]()
 
 ## 스터디 방식
 
