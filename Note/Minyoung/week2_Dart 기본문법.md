@@ -179,11 +179,9 @@ class Employee2 with Person {
 
 ### Flutter 사용 시 자주 사용됨
 
-- Future
-
+- `Future`
   - 비동기 처리
-
-  - Future 타입으로 리턴을 받는 형태의 메소드
+  - `Future` 타입으로 리턴을 받는 형태의 메소드
   - 지금은 없지만 미래에 요청한 데이터 혹은 에러가 담길 그릇
   - 비동기로 실행
 
@@ -193,8 +191,7 @@ Future networkRequest() {
 }
 ```
 
-- async / await
-
+- `async` / `await`
   - 비동기 처리, `Future`를 조금 더 용이하게 다루기 위한 키워드
 
     > 1. `await` 키워드를 사용한 함수는 무조건 `async` 함수여야 함
@@ -203,6 +200,7 @@ Future networkRequest() {
     > 1. `await`를 만나면 함수를 잠시 멈추고 함수를 호출한 곳에 `Future`를 return
     > 2. `await`가 붙은 동작이 완료되기 전까지 함수를 더 이상 진행하지 x
     > 3. return을 통해 1번에서 주었던 `Future`에서 return 값이 나오게 함
+
 ```dart
 void main() {
     print('시작');
