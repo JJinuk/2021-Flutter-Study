@@ -15,8 +15,8 @@
 
 ```dart
 void main() { 
-	var a=10;			// int type
-    var b=3.5;			// double type
+    var a=10;		// int type
+    var b=3.5;		// double type
     var str='Hello';	// String type
     var isTrue=true;	// bool type
     
@@ -31,7 +31,7 @@ void main() {
     const h=20;
     
     List<String> items = ['a', 'b', 'c'];
-    var items = [1, 2, 3];	// <- 타입 추론이 되기 때문에 위와 동일하게 생성 가능
+    var items = [1, 2, 3];		// <- 타입 추론이 되기 때문에 위와 동일하게 생성 가능
     var items2 = [...item, 4, 5];	// [1, 2, 3, 4, 5]
 
     var itemSet = {1, 2, 3};
@@ -44,7 +44,7 @@ void main() {
 - `dymanic` 사용 시 모든 자료형 사용 가능 (함수 인자 등에 사용)
 - `num`은 `int`, `double` 둘 다 포함
       - `double` 변수에 `int`형 자료 넣을 시 `as double`(타입캐스팅)을 해줘야 함
-          - `num` 사용 시 타입캐스팅 없이 사용 가능
+      - `num` 사용 시 타입캐스팅 없이 사용 가능
 - `var` : 타입을 명시하지 않고 타입을 초기화 값에 따라서 자동으로 데이터 타입을 정해줌
 - `final`, `const` - 둘 다 변경x
   - `final` : 동적으로 메모리에 할당
