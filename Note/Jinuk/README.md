@@ -8,6 +8,7 @@
   - [MacOS 설치 방법](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/installGuide_for_Mac.md)
   - [testapp](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week3/test_app)
 - 4주차: 5~8강 (시험 1주전)
+  - [week4](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week4/week4_test)  
 - 5주차: 9~13강
 - 6주차: 14~19강
 - 7주차: 20~23강
