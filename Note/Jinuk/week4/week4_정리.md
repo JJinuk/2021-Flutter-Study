@@ -84,7 +84,8 @@ scaffold():
 - 앱 화면에 다양한 요소를 배치하고 그릴 수 있도록 도와주는 빈 도화지 역할
 - scffold()를 넣어줘도 된다.
 
-![스크린샷 2021-10-26 오후 9.11.09.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/50e576c6-6215-4eb5-817e-dc878e6b138d/스크린샷_2021-10-26_오후_9.11.09.png)
+<img width="466" alt="스크린샷 2021-10-26 오후 9 11 09" src="https://user-images.githubusercontent.com/74299463/138883450-8e93cc99-92ce-4b35-b90a-68b7104b9818.png">
+
 
 1. title: ' '
     
