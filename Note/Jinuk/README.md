@@ -9,8 +9,9 @@
   - [testapp](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week3/test_app)
 - 4주차: 5~8강 (시험 1주전)
   - [week4](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week4/week4_정리.md)  
-- 5주차: 9~13강
-- 6주차: 14~19강
+- 5주차: 9~12강
+  - [week5](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week4/week5_정리.md)  
+- 6주차: 13~19강
 - 7주차: 20~23강
 - 8주차: 24~27강 (순한맛 강좌 끝)
 - 9~10주차: 개인 프로젝트 (주제 자유)  
