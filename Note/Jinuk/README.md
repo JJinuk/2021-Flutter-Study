@@ -10,7 +10,7 @@
 - 4주차: 5~8강 (시험 1주전)
   - [week4](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week4/week4_정리.md)  
 - 5주차: 9~12강
-  - [week5](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week4/week5_정리.md)  
+  - [week5](https://github.com/dsc-sangmyung/2021-Flutter-Study/blob/main/Note/Jinuk/week5/week5_정리.md)  
 - 6주차: 13~19강
 - 7주차: 20~23강
 - 8주차: 24~27강 (순한맛 강좌 끝)
