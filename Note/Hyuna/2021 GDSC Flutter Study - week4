@@ -1,1 +1,22 @@
-test
+1. 플러터에서 위젯
+ 1) UI를 만들고 구성하는 모든 구성 요소
+ 2) 범위: 눈에 보이지 않는 레이아웃 + 모든 것
+
+2. 위젯 종류
+ 1) stateless(이전 상호작용의 어떤 값도 저장X) widget: 상대가 없는 정적인 위젯
+    - 스크린 상에 존재만 할 뿐 아무것도 하지 않음
+    - 실시간 데이터 저장도 X
+ 2) stateful(value값을 지속적으로 추적 보존) widget: 계속 움직임이나 변화가 있는 위젯
+    - 사용자의 interaction에 따라 모양이 바뀜
+    - 데이터를 받게 되었을 때 모양이 바뀜
+ 3) ingerited widget
+ 
+3. widget tree
+ 1) widget은 tree구조로 정리 간으
+ 2) 한 widget내에 다른 widget 포함 가능
+ 3) widget은 부모 위젯과 자식 위젯으로 구성
+ 4) parent widget을 widget container라고 부름
+  
+4. main(), runApp() : 함수명은 소문자로 시작
+   MyApp() : 클래스는 대문자로 시작
+ 
