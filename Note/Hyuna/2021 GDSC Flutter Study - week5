@@ -1,1 +1,35 @@
-test
+1. appBar를 title 중앙으로 이동시키기
+   centerTitle: true
+   
+2. appBar의 background 색상 변경하기
+   backgroundColor: Colors.redAccent
+   
+3. appBar가 떠있는 효과 제거하기
+   elevation: 0.0
+   
+4. padding값 적용하기
+   body: Padding( padding: EdgeInsets.fromLTRB(left, top, right, bottom))
+
+5. Text 디자인하기
+Text('BBANTO',
+style: TextStyle(
+  color:Colors.white,
+  letterSpacing: 2.0,  
+  fontSize: 28.0,
+  fontWeight: FontWeight.bold
+ ),)
+ 
+6. 간격 만들기
+SizedBox(
+  height:10.0  //세로
+  width: 10.0 //가로
+ )
+ 
+7. 프로그래밍 상에서 클래스
+   객체가 가져야 하는 속성과 기능을 정의한 내용을 담고 있는 설계도 역할
+8. 프로그래밍 상에서 객체
+클레스가 정의된 후 메모리가 할당되었을 떄 이를 객체라 함
+
+9. 프로그래밍 상에서 인스턴스
+- 클래스를 기반으로 생성
+- 클래스의 기능과 속성을 그대로 가짐, 프로그래밍 상에서 사용되는 대상
