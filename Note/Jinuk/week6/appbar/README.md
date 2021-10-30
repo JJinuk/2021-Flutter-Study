@@ -1,4 +1,4 @@
-## App bart icon button
+## App barticon button
 
 - leading: 아이콘 버튼이나 간단한 위젯을 왼쪽에 배치할 때
 - actions: 복수의 아이콘 버튼 등을 오른쪽에 배치할 때
