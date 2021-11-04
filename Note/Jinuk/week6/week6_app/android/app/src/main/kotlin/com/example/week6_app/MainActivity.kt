@@ -1,4 +1,4 @@
-package com.example.appbar
+package com.example.week6_app
 
 import io.flutter.embedding.android.FlutterActivity
 
