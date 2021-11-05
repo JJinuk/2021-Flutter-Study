@@ -1,1 +1,7 @@
+1. App bar icon button
+  1) leading: 아이콘 버튼이나 간단한 위젯을 왼쪽에 배치할 때
+  2) actions: 복수의 아이콘 버튼 등을 오른쪽에 배치할 때
+  3) onPressed: 함수 형태로 일반 버튼이나 아이콘 버튼을 터치했을 때 일어나는 이벤트를 정의하는 곳
 
+2. buildcontext: widtree에서 현재 widget의 위치를 알 수 있는 정보
+3. scaffold.of(context) method: 현재 주어진 context에서 위로 올라가면서 가장 가까운 scaffold를 찾아서 반환
