@@ -22,6 +22,8 @@
 - 현재 주어진 context에서 위로 올라가면서 가장 가까운 Scaffold를 찾아서 반환하라.
 - Something.of(context)
 - Theme.of(context)
+-  <img width="630" alt="스크린샷 2021-11-06 오후 8 27 32" src="https://user-images.githubusercontent.com/74299463/140611666-007cb14c-c7af-47e1-bab0-54ca44242675.png">
+
 
 ### Snack bar and Toasd message
 
