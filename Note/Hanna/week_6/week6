@@ -1,0 +1,27 @@
+Week6
+
+
+1) app bar icon
+
+- leading: 간단한 위젯이나 아이콘 등을 AppBar 타이틀 왼쪽에 배치
+- actions: 복수의 아이콘 버튼 등을 오른쪽에 배치
+- onPressed: 함수의 형태로 일반 버튼이나 아이콘 버튼을 터치했을 때 일어나는 이벤트를 정의하는 곳
+
+ 
+2) Drawer
+
+- Drawer 위젯의 차일드 위젯으로 ListView -> UserAccountDrawerHeader, LiseTile
+- OnPress와 OnTap 함수의 차이: 기능상으로는 거의 비슷하지만, OnPress는 주로 버튼에 사용되고, OnTap은 gestureDetector이나 InkWell에 주로 사용됨 
+- OnTap은 길게 누르기, 2번 탭 하기 등 어떤 동작의 반응하는 이벤트를 위해서 사용된다
+- trailing : 우측 끝나는 점에 아이콘과 이미지를 배치하는 속성
+
+    
+3) BuildContext
+
+- widget tree에서 현재 widget의 위치를 알 수 있는 정보
+- BuildContext는 stateless 위젯이나 state 빌드 메서드에 의해서 리턴된 위젯의 부모가 된다
+
+
+• Scaffold.of(context) method: 현재 주어진 context에서 위로 올라가면서 가장 가까운 Scaffold를 찾아서 반환하라는 의미
+
+• Builder 위젯: 새로운 context로 새로운 widget을 만들기 위해 사용된다
