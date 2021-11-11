@@ -262,6 +262,25 @@ body: SafeArea(
 ```
 <img width="516" alt="strech" src="https://user-images.githubusercontent.com/74299463/141255049-3b5c37af-ca8b-4bc8-ba2b-b635a6bbacc4.png">
 
+<<<<<<< HEAD
+=======
+### Navigator
+
+- Route의 개념
+- Navigator의 정의와 push, pop 함수, stack 자료구조 
+  - stack 자료구조
+    - 밑에서 하나씩 차곡차곡 
+    - Push method를 통해 데이터를 쌓을 수 잇다
+    - Pop method는 삭제
+  - Navigator
+    - route는 Navigator가 관리
+    - Navigator는 Stack 자료구조 사용
+    - 데이터 추가 -> push method
+    - 데이터 삭제 -> pop method
+- MaterialPageRoute위젯과 context
+- 페이지 이동 기능 구현 완성
+
+>>>>>>> jinuk
 
 ## 참고 자료
 - [Flutter layout 예제](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
