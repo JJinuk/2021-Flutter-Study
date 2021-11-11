@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.week7">
+    package="com.example.week7_1">
    <application
-        android:label="week7"
+        android:label="week7_1"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
