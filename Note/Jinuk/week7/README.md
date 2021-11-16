@@ -278,6 +278,5 @@ body: SafeArea(
 - MaterialPageRoute위젯과 context
 - 페이지 이동 기능 구현 완성
 
-
 ## 참고 자료
 - [Flutter layout 예제](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
