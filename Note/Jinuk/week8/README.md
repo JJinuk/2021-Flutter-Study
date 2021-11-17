@@ -26,3 +26,52 @@ void main() {
 
 ```
 - <dynamic>말고 Collection / Generic 타입을 왜 지정해줘야 할까
+
+
+```dart
+class Circle{}
+class Square{}
+
+class SquareSlot {
+  insert (Square squareSlot) {
+  }
+}
+
+class CircleSlot {
+  insert (Circle circleSlot) {
+  }
+}
+
+void main() {
+  var circleSlot = new CircleSlot();
+  
+  circleSlot.insert(new Circle());
+  
+  var squareSlot = new SquareSlot();
+  
+  squareSlot.insert(new Circle());
+  
+} // Generic 적용 전 
+
+void main() {
+  var circleSlot = new Slot<Circle>();
+  circleSlot.insert(new Circle());
+  
+  var squareSlot = new Slot<Square>();
+  squareSlot.insert(new Square());
+  
+  var triangleSlot = new Slot<Triangle>();
+  triangleSlot.insert(new Triangle());
+}
+
+class Circle{}
+class Square{}
+class Triangle{}
+
+class Slot<T>{
+  insert (T Shape) {
+    
+  }
+} // Generic 적용 후
+
+```
