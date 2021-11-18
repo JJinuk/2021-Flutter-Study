@@ -75,3 +75,22 @@ class Slot<T>{
 } // Generic 적용 후
 
 ```
+
+## Flutter 2.0 Snack Bar, Scaffold Messenger
+
+1. ScaffoldMessenger class
+   - Scaffold.of(context) method
+    ```dart
+    Scaffold.of(context).showSnackBar(SnackBar(...))
+    ```
+   - Why ScaffoldMessenger?
+   - BuildContext and SnackBar
+      - Scaffold.of(context) -> FlatButton 위젯 -> Center 위젯 -> Scaffold 위젯
+      - 그림
+     - 기존 SnackBar의 문제점
+       - A페이지에서 구현된 스낵바는 현재 A페이지 BuildContext의 Scaffold 상에서만 구현 가능 다른 Routes이동하게 될 경우 B페이지 new BuildContext로 바뀌게 되고 SnackBar 구현 X
+      - 2.0 ScaffoldMessenger class
+       - Manages SnackBars for descendant Scaffolds
+       - root ScaffoldMessenger is included in the MaterialApp
+2. Buttons (TextButton, ElevatedButton, OutlinedButton)
+3. Global key
