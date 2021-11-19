@@ -94,3 +94,11 @@ class Slot<T>{
        - root ScaffoldMessenger is included in the MaterialApp
 2. Buttons (TextButton, ElevatedButton, OutlinedButton)
 3. Global key
+
+## Flutter 2.0 Button
+1. Buttons  
+   - RaisedButton => ElevatedButton
+   - FlatButton => TextButton
+   - OutlineButton => OutlinedButton
+2. ButtonBar widget
+   - 한번에 버튼을 끝으로 정렬해주는 기능
