@@ -1,0 +1,29 @@
+20강 컨테이너
+- "Containers with no children try to be as big as possible" : 컨테이너 위젯은 페이지 내에서 최대한의 공간을 차지하려고 하는 것을 의미, 
+child가 없을 경우 컨테이너 위젯은 최대한의 공간을 차지한다는 것을 의미
+- "Containers with children size themselves to their children" : 컨테이너는 child를 가지게 되면 그 child의 크기로 줄어든다는 의미
+- SafeArea WIdget : 개발자가 보여 주기를 원하는 콘텐츠가 화면 밖으로 빠져나가지 않게 경계를 지정해 주는 것
+- margin: 컨테이너가 스크린 가장자리에서 일정 간격을 가지게 하고 싶을 때 사용, 위젯의 바깥쪽 간격 조절
+- padding: 컨테이너가 포함하고 있는 요소가 컨테이너 가장자리에서 일정 간격을 가지게 하고 싶을 때 사용, 위젯의 안쪽 간격 조절
+- 컨테이너는 오직 하나만의 child를 갖는다
+
+
+21강 컬럼, 로우
+- mainAxisAlignment: MainAxisAlignment.center : column 위젯이 정중앙으로 이동
+- mainAxisSize: MainAxisSize.min: 상하좌우에서 컨테이너 위치 통제, 최소한의 영역 
+- verticalDirection: VerticalDirection.up: 컨테이너를 밑에서부터 123 정렬 
+- verticalDirection: VerticalDirection.down: 컨테이너를 위에서부터 123 정렬 
+- mainAxisAlignment: MainAxisAlignment.spaceEvenly: 똑같은 간격을 가지고 children 위젯들을 배치하는 기능
+- mainAxisAlignment: MainAxisAlignment.spaceBetween: 컨테이너가 정확히 스크린 상중하에 배치
+- crossAxisAlignment: CrossAxisAlignment.end: 가로축 길이 끝에 맞추어서 정렬
+- width: double.infinity: 컨테이너 3개 모두를 한 번에 오른쪽 끝으로 정렬
+- crossAxisAlignment: CrossAxisAlignment.stretch: 컨테이너를 가로 방향으로 채움, 가로 크기 지정을 지움
+- SizedBox: 컨테이너 사이 간격
+
+
+22강 네비게이터
+- Route: 스마트폰에서 보이는 하나의 페이지 또는 화면
+- Navigator: 모든 페이지를 관리하며, 스택 자료구조 형식으로 라우터 개체들을 관리, push, pop 메소드 제공
+- Stack 자료구조:
+• Push method: 데이터 추가
+• Pop method: 데이터 삭제
