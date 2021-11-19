@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/week7_1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week7_1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week7_1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week3/test_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week3/test_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week3/test_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week8/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week8/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week5/week5_test/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week5/week5_test/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week5/week5_test/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week6/week6_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week6/week6_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week6/week6_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week4/week4_test/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week4/week4_test/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week4/week4_test/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/week7/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/week7/build" />
+      <excludeFolder url="file://$MODULE_DIR$/week7/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
