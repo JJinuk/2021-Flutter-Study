@@ -10,9 +10,8 @@
 |:---:|:---:|:---:|
 |멤버|[손병욱](https://github.com/j1mmyson)|[김홍진](https://github.com/hongjin4790)|
 ||[김형진](https://github.com/HyeongjinKim98)|[권민영](https://github.com/Minyoung52)|
-||[노승서](https://github.com/rohseungseo)|[정한나](https://github.com/hanna8254)|
+||[양은희](https://github.com/Yangeunhui)|[정한나](https://github.com/hanna8254)|
 ||[박용호](https://github.com/ParkTori)|[김효정](https://github.com/hyojeong0727)|
-||                                  |[양은희](https://github.com/Yangeunhui)|   
 
 
 ## 스터디 일정 및 참고 자료 
