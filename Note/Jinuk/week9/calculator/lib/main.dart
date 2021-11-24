@@ -14,7 +14,7 @@ class calcApp extends StatelessWidget {
         backgroundColor: Color(0xFF283637),
         body: Center(
           child: CalcButton(
-            text: '1',
+            text: 'AC',
             ),
         ),
       ),
