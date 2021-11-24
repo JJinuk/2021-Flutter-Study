@@ -8,16 +8,32 @@ void main() {
 class calcApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Calculator',
       home: Scaffold(
         backgroundColor: Color(0xFF283637),
         body: Center(
-          child: CalcButton(
-            text: 'AC',
-            ),
+          child: Row(
+            children: <Widget>[
+              CalcButton(
+                text: 'AC',
+                fillColor: 0xFF6C807F
+                ),
+              CalcButton(
+                text: 'C',
+                fillColor: 0xFF6C807F
+                ),
+              CalcButton(
+                text: '%',
+                fillColor: 0xFF6C807F
+                ),
+              CalcButton(
+                text: '/',
+                fillColor: 0xFF6C807F
+                ),
+            ]),
         ),
-      ),
-    );
+        ),
+      );
   }
 }
