@@ -26,7 +26,7 @@ class CalculatorNeuApp extends StatefulWidget {
 }
 
 class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
-  bool darkMode = false;
+  bool darkMode = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,6 +48,15 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         _buttonRounded(title: '0'),
+                        _buttonRounded(title: ','),
+                        _buttonRounded(
+                            icon: Icons.backspace_outlined,
+                            iconColor:
+                                darkMode ? Colors.green : Colors.redAccent),
+                        _buttonRounded(
+                            title: '=',
+                            textColor:
+                                darkMode ? Colors.green : Colors.redAccent),
                       ],
                     )
                   ],
@@ -58,19 +67,36 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
         ),
       ),
     );
+  }
 
-    // ignore: dead_code
-    Widget _buttonRounded({required String title, double padding = 20}) {
-      return NeuContainer(
-        darkMode: darkMode,
-        borderRadius: BorderRadius.circular(40),
-        child: Container(
-          width: padding * 2,
-          height: padding * 2,
-          child: Center(child: Text('$'),)
-        ),
-      );
-    }
+  Widget _buttonRounded(
+      {String? title,
+      double padding = 20,
+      IconData? icon,
+      Color? iconColor,
+      Color? textColor}) {
+    return NeuContainer(
+      darkMode: darkMode,
+      borderRadius: BorderRadius.circular(40),
+      padding: EdgeInsets.all(padding),
+      child: Container(
+        width: padding * 2,
+        height: padding * 2,
+        child: Center(
+            child: title != null
+                ? Text(
+                    '$title',
+                    style: TextStyle(
+                        color: textColor != null
+                            ? textColor
+                            : darkMode
+                                ? Colors.white
+                                : Colors.black,
+                        fontSize: 30),
+                  )
+                : Icon(icon, color: iconColor, size: 30)),
+      ),
+    );
   }
 }
 
