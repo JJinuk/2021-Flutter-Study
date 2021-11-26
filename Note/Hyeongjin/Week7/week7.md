@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Week7
 - Container
   - child가 없을 경우 screen 내 가질 수 있는 최대 공간을 차지함
@@ -24,3 +25,14 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   - 디스플레이에 보여지는 하나의 액티비티
 2) Navigator
   - stack 자료구조 형식으로 pop(), push()를 호출해 화면에 표시 
+=======
+##Week7
+###Container Widget
+1) Container Widget
+- Container은 child가 없을 경우 최대 공간을 차지한다
+- Container가 child를 가지게 되면 child의 크기로 줄어든다
+
+2) Navigator
+- 앱 페이지를 stack 자료구조 형태로 관리
+- push(), pop()
+>>>>>>> 716afb3c8762ef911eda8d8fc518b5d0f85dc7df
