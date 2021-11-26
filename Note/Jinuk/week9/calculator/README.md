@@ -2,10 +2,10 @@
 
 
 ### 완성사진
-- lightmode
-![Simulator Screen Shot - iPhone 13 Pro - 2021-11-26 at 23 38 55](https://user-images.githubusercontent.com/74299463/143598130-2eb8f1c7-8074-41a4-a55e-28392eba621d.png)
-- darkmode
-![Simulator Screen Shot - iPhone 13 Pro - 2021-11-26 at 23 38 57](https://user-images.githubusercontent.com/74299463/143598144-49219972-b568-43f6-b229-c0ad8b640008.png)
+lightmode   | darkmode
+:----------:|:---------:
+![Simulator Screen Shot - iPhone 13 Pro - 2021-11-26 at 23 38 55](https://user-images.githubusercontent.com/74299463/143598250-edfe412f-502e-405e-b46b-45c4e4cc74c3.png)|![Simulator Screen Shot - iPhone 13 Pro - 2021-11-26 at 23 38 57](https://user-images.githubusercontent.com/74299463/143598258-fa18f277-f15a-4c4d-894c-5a5adbd5a6a4.png)
+
 
 
 ### 참고자료
