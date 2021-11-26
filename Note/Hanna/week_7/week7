@@ -27,3 +27,7 @@ child가 없을 경우 컨테이너 위젯은 최대한의 공간을 차지한�
 - Stack 자료구조:
 • Push method: 데이터 추가
 • Pop method: 데이터 삭제
+
+
+23강 네비게이터와 pushNamed 메서드
+- Map 자료구조: key 값과 Value 값이 서로 일대일로 대응하는 구조, String과 Widget builder가 반드시 한 쌍
