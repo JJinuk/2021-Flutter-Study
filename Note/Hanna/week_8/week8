@@ -1,0 +1,27 @@
+Week8
+
+• Collection and Generic
+
+- $변수명
+- Interpolation: 보간법, 문자열을 출력하거나 선언할 때 다른 변수를 끼워 넣는 것
+- Collection: 데이터들을 모아서 가지고 있는 자료 구조
+- Generic: Collection이 가지고 있는 데이터들의 데이터 타입을 지정, 코드의 안전성
+- var 키워드를 사용해서 변수를 선언하면 해당 변수가 참조하고 있는 객체에 따라서 타입이 결정된다
+- dynamic: 어떤 변수가 여러 타입으로 지정될 수 있어야 할 때 사용하는 것
+- list의 종류 = array
+① fixed - length list : 데이터 수 지정
+② growable list: 개수에 제한이 없음
+
+
+
+• flutter 2.0 스낵바와 ScaffoldMessenger
+
+1) BuildContext and SnackBar
+- Scaffold.of(context) -> FlatButton 위젯 -> Center 위젯 -> Scaffold 위젯
+- 다른 페이지 이동을 한다면 새로운 Buildcontext에 있는 Scaffold가 바뀌게 되어 SnackBar는 구현되지 않음
+- ScaffoldMessenger를 통해 여러 자손 Scaffold 폴더들이 SnackBar를 수신할 수 있도록 한데 묶어서 관리
+
+2) Buttons
+- RaisedButton -> ElevatedButton
+- FlatButton -> TextButton
+- OutlineButton -> OutlineButton
