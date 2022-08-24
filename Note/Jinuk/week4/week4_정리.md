@@ -20,7 +20,7 @@
 
 ### Stateless와 Stateful의 일반적인 의미
 
-1. Stateful ⇒ Valute 값을 지속적으로 추적 보존
+1. Stateful ⇒ Value 값을 지속적으로 추적 보존
 2. Stateless ⇒ 이전 상호작용의 어떠한 값도 저장하지 않음
 
 ### Stateless Widgets
